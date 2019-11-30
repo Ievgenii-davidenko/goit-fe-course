@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Playfair Display", serif;
     color: rgb(98, 98, 98);
     font-size: 14px;
     background-color: #edf4bc;
     text-align: center;
-}
+   }
 
 
      }
@@ -16,19 +22,24 @@ body {
    
     text-align: center;
     background-color: #a6f2ee;
+
 }
 ul {
     list-style: none;
    
 }
 .list-menu {
-    display: inline-block;
-    margin-right: 100px;
     text-align: center;
-    text-transform: uppercase;
+    margin: 0 auto;
+   }
+
+   .list-menu-item {
+display: inline-block;
+text-transform: uppercase;
     padding-top: 77px;
     padding-bottom: 105px;
-   }
+    margin-left: 65px;
+     }
 img {
     display:inline-block;
     max-width: 100%;
