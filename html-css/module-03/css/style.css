@@ -2,8 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
 
+}
+.container {
+    margin: 0;
+    width: 900px;
+    text-align: center;
+    width: center;
+    margin-right: center;
+    font-size: 0px;
+    display: inline-block;
+ }
+ 
+     
+
+.article {
+    display: inline-block;
+    float:  left;
+    margin: 0;
+    }
 body {
     font-family: "Playfair Display", serif;
     color: rgb(98, 98, 98);
@@ -11,35 +28,31 @@ body {
     background-color: #edf4bc;
     text-align: center;
    }
-
-
-     }
-     main {
+         main {
         padding-top: 0px;
         padding-bottom: 72px;
 }
 .header{
-   
-    text-align: center;
-    background-color: #a6f2ee;
-
+      text-align: center;
+    background-color: #dceeed;
 }
-ul {
-    list-style: none;
-   
+
+.list-menu-item:hover {
+    color: rgb(3, 169, 244);
 }
 .list-menu {
     text-align: center;
     margin: 0 auto;
    }
-
    .list-menu-item {
-display: inline-block;
+   display: inline-block;
 text-transform: uppercase;
     padding-top: 77px;
     padding-bottom: 105px;
-    margin-left: 65px;
+    margin-right: 60px;
+    font-size: 14px;
      }
+     
 img {
     display:inline-block;
     max-width: 100%;
@@ -59,29 +72,23 @@ img {
         margin-bottom: 30px;
     }
     .lifestyle-list {
-        text-align: center;
+                text-align:justify;
         vertical-align: middle;
+        display: inline-block;
         margin-bottom: 140px;
     }
-    
-    .lifestyle-list-item {
+     .lifestyle-list-item {
         display: inline-block;
-        margin-right: 65px;
+        margin-right: auto;
         text-align: left;
         width: 420px;
         font-size: 14px;
     }
-   .music {
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 140px;
-   }
-   .travel {
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 140px;
-    
-   }
+    .lifestyle-list-item:nth-child(2n+1){
+        margin-right: 60px;
+    }
+   
+   
    .menu-item {
     display: block;
     font-family: "Playfair Display", serif;
@@ -101,4 +108,5 @@ img {
    }
 .foto-name {
     text-align:left
+
 }
