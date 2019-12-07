@@ -61,6 +61,7 @@ img {
 }
     .list-name {
         font-size: 30px;
+        margin-bottom: 35px;
     }
     .text {
         line-height: 24px;
@@ -110,6 +111,7 @@ img {
     margin-right: auto;
    }
 .foto-name {
-    text-align:left
+    text-align:left;
+    margin-bottom:  35px;
 
 }
