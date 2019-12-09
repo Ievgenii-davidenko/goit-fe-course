@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-.container {
-    margin: 0;
-    width: 900px;
-    text-align: center;
-    width: center;
-    margin-right: center;
-    font-size: 0px;
-    display: inline-block;
+    text-decoration: none;
  }
- 
+.container {
+    margin: 0px auto;
+    width: 900px;
      
+ }
+ *::before,
+*::after{
+    box-sizing: inherit;
+}
+.section1   {
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 0;
+}
 
 .article {
     display: inline-block;
@@ -25,9 +28,8 @@ body {
     font-family: "Playfair Display", serif;
     color: rgb(98, 98, 98);
     font-size: 14px;
-    background-color: #edf4bc;
-    text-align: center;
-   }
+    background-color: #f6f8e5;
+      }
          main {
         padding-top: 0px;
         padding-bottom: 72px;
@@ -37,27 +39,35 @@ body {
     background-color: #dceeed;
 }
 
-.list-menu-item:hover {
-    color: rgb(3, 169, 244);
-}
+.list-menu-item a:hover {
+    color: rgb(3, 244, 35);
+     }
+
 .list-menu {
     text-align: center;
     margin: 0 auto;
+    text-decoration: none;
    }
    .list-menu-item {
    display: inline-block;
 text-transform: uppercase;
     padding-top: 77px;
     padding-bottom: 105px;
-    margin-right: 60px;
+    margin-right: 80px;
     font-size: 14px;
-     }
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+         }
+     .list-menu-item:last-child {
+        margin-right: 0px;
+    }
      
 img {
     display:inline-block;
     max-width: 100%;
     height: auto;
     margin: 0px;
+    margin-bottom: 32px;
 }
     .list-name {
         font-size: 30px;
@@ -72,8 +82,7 @@ img {
         font-size: 14px;
         line-height: 17px;
         text-transform: uppercase;
-        margin-top: 32px;
-        margin-bottom: 30px;
+               margin-bottom: 30px;
     }
     .lifestyle-list {
                 text-align:justify;
@@ -105,13 +114,15 @@ img {
     border-style: solid;
     background-color: #ee6565;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 70px;
-    margin-left: auto;
-    margin-right: auto;
-   }
+    margin: auto;
+      }
 .foto-name {
     text-align:left;
     margin-bottom:  35px;
 
+}
+.menu-item:hover {
+cursor: pointer;
+color: #03a9f4;
+background-color: greenyellow;
 }
