@@ -1,0 +1,222 @@
+* {
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+       }
+   .body {
+       margin: 0px auto;
+      
+   }
+ul {
+    list-style: none;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+.list-menu {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0f0101;
+    line-height: 11px;
+      }
+img {
+    display: block;
+    max-width: 100%;
+    height: ;
+    margin: 0px auto;
+}
+.container {
+    margin: 0 auto;
+    background-color: transparent;
+    /* display: inline-block; */
+    width: 1110px;
+    padding: 0px;
+    
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.logo {
+    float: left;
+   
+}
+.header-list {
+    padding-top: 38px;
+ 
+}
+
+.list-menu:last-child {
+    margin-right: 0px;
+}
+.text-menu {
+     color: #0f0101;
+}
+.menu a:hover,
+.menu a:focus {
+    color: #1abc9c;
+}
+.product-list {
+    float: left;
+    width: 255px;
+    height: 322px;
+    background-color: #323232;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    }
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #555252;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+h1::first-letter {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #1abc9c;
+}
+.main-section1 {
+    padding-top: 106px;
+    padding-bottom: 75px;
+    
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #555252;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2::after {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 92px;
+}
+.product-list:nth-child(4) {
+    margin-right: 0px;
+}
+.product-list:nth-child(8) {
+    margin-right: 0px;
+}
+    .product-list:hover .product-button span{
+        background-color: #1abc9c;
+    }
+.foto-list-img {
+    text-align: center;
+    background-position: center;
+    background-color: #e9f0fd;
+}
+.product-button {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    width: 255px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    background-position: bottom;
+}
+.product-price {
+    width: 54px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(#ffffff70, #ffffff70);
+    text-align: center;
+    float: right;
+    padding-top: 4px;
+    background-color: #323232
+}
+.product-name {
+    width: 201px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 4px;
+    background-color: #323232
+}
+.main-news-list-item {
+    width: 350px;
+    height: 496px;
+    float: left;
+    margin-right: 30px;
+}
+
+.main-news-list-item:last-child {
+    margin-right: 0px;
+}
+
+.main-news-image {
+    padding-bottom: 16px;
+}
+
+.news-title {
+    font-family: "OpenSans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.news-title:after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+
+.news-description {
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+
+.news-button {
+    display: block;
+    width: 160px;
+    height: 50px;
+    border: transparent;
+    border-radius: 3px;
+    background-color: #1abc9c;
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 80px;
+    margin-left: 0;
+}
