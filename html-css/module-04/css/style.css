@@ -5,40 +5,28 @@
        }
    .body {
        margin: 0px auto;
-      
-   }
+         }
 ul {
     list-style: none;
-    float: right;
-}
+    }
 
 a {
     text-decoration: none;
 }
 .list-menu {
-    display: inline-block;
-    margin-right: 40px;
-    font-family: "OpenSans", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #0f0101;
-    line-height: 11px;
-      }
+       margin-right: 40px;
+            }
 img {
     display: block;
     max-width: 100%;
-    height: ;
-    margin: 0px auto;
+     margin: 0px auto;
 }
 .container {
     margin: 0 auto;
     background-color: transparent;
-    /* display: inline-block; */
-    width: 1110px;
+        width: 1110px;
     padding: 0px;
-    
-}
+    }
 
 .clearfix::after {
     display: table;
@@ -52,26 +40,44 @@ img {
 }
 .header-list {
     padding-top: 38px;
- 
-}
+ }
 
 .list-menu:last-child {
     margin-right: 0px;
 }
 .text-menu {
      color: #0f0101;
+     font-family: "OpenSans", sans-serif;
+     font-size: 14px;
+     font-weight: 600;
+     text-transform: uppercase;
+     color: #0f0101;
+     line-height: 11px;
+}
+.menu {
+    float: right;
 }
 .menu a:hover,
 .menu a:focus {
     color: #1abc9c;
+}
+.menu li {
+    float: left;
 }
 .product-list {
     float: left;
     width: 255px;
     height: 322px;
     background-color: #323232;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 92px;
+    }
+    .product-list:not(:nth-child(4n)){
+        margin-right: 30px;
+    }
+    .product-list:not(:nth-child(4n+4)){
+        margin-bottom: 30px;
     }
 h1 {
     font-family: "Roboto", sans-serif;
@@ -94,16 +100,17 @@ h1::first-letter {
     
 }
 
-h2 {
+.main__title {
     font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: 900;
     color: #555252;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 132px;
 }
 
-h2::after {
+.main__title::after {
     display: block;
     content: "";
     width: 164px;
@@ -111,14 +118,9 @@ h2::after {
     background-color: #1abc9c;
     margin: 0 auto;
     margin-top: 32px;
-    margin-bottom: 92px;
+    
 }
-.product-list:nth-child(4) {
-    margin-right: 0px;
-}
-.product-list:nth-child(8) {
-    margin-right: 0px;
-}
+
     .product-list:hover .product-button span{
         background-color: #1abc9c;
     }
@@ -166,10 +168,13 @@ h2::after {
     padding-top: 4px;
     background-color: #323232
 }
+.main-section2 {
+    padding-top: 106px;
+    padding-bottom: 75px;
+}
 .main-news-list-item {
     width: 350px;
-    height: 496px;
-    float: left;
+       float: left;
     margin-right: 30px;
 }
 
@@ -184,8 +189,9 @@ h2::after {
 .news-title {
     font-family: "OpenSans", sans-serif;
     font-size: 18px;
-    font-weight: 600;
-    line-height: 26px;
+      line-height: 26px;
+      font-weight: 600;
+      margin: auto;
 }
 
 .news-title:after {
@@ -195,7 +201,7 @@ h2::after {
     height: 3px;
     background-color: #1abc9c;
     margin-top: 12px;
-    margin-bottom: 28px;
+   
 }
 
 .news-description {
@@ -217,6 +223,20 @@ h2::after {
     font-size: 16px;
     font-weight: 300;
     color: #ffffff;
-    margin-bottom: 80px;
-    margin-left: 0;
+        margin-left: 0;
+}
+.main__title2::before {
+    margin: auto;
+    padding: 0px;
+    font-size: 0px;
+    margin-top: 105px;
+}
+.main__title2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #555252;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 132px;
 }
