@@ -40,6 +40,8 @@ img {
 }
 .header-list {
     padding-top: 38px;
+    position: relative;
+    height: 90px;
  }
 
 .list-menu:last-child {
@@ -71,13 +73,17 @@ img {
     background-color: #323232;
     margin: 0px;
     padding: 0px;
-    margin-bottom: 92px;
+   
     }
     .product-list:not(:nth-child(4n)){
         margin-right: 30px;
     }
     .product-list:not(:nth-child(4n+4)){
         margin-bottom: 30px;
+    }
+    .product-list:nth-child(8n) {
+        margin-bottom: 92px;
+
     }
 h1 {
     font-family: "Roboto", sans-serif;
@@ -223,14 +229,11 @@ h1::first-letter {
     font-size: 16px;
     font-weight: 300;
     color: #ffffff;
-        margin-left: 0;
+    margin-left: 0;
+    text-align: center;
+    align-items: center;
 }
-.main__title2::before {
-    margin: auto;
-    padding: 0px;
-    font-size: 0px;
-    margin-top: 105px;
-}
+
 .main__title2 {
     font-family: "Roboto", sans-serif;
     font-size: 48px;
