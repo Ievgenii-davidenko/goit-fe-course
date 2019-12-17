@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 ul {
     list-style: none;
 }
@@ -15,7 +16,7 @@ a {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
     margin: 0px;
 }
 
@@ -27,8 +28,12 @@ header {
     width: 1110px;
     margin: 0 auto;
     background-color: transparent;
+    /* position: relative; */
+    margin-bottom: 38px;
 }
-
+.navigation {
+  
+}
 .clearfix::after {
     display: table;
     content: "";
@@ -45,6 +50,7 @@ header {
     line-height: 32px;
 }
 
+
 .logotype::first-letter {
     font-family: "Roboto", sans-serif;
     font-size: 30px;
@@ -52,12 +58,13 @@ header {
     color: #1abc9c;
 }
 
-.header__list {
-    float: right
+
+.header__list-item a:not(:last-child) {
+    margin-right: 35px;
 }
 
-.header__list-item {
-    display: inline;
+.header__list-link {
+    /* display: inline; */
     margin-right: 34px;
     font-family: "OpenSans", sans-serif;
     font-size: 14px;
@@ -65,10 +72,18 @@ header {
     text-transform: uppercase;
     color: #0f0101;
     line-height: 11px;
+     /* position: absolute;  */
 }
 
-.header__list-item:last-child {
+.header__list-link:last-child(6) {
     margin-right: 0px;
+}
+
+.header__list li {
+    float: left;
+}
+.header__list {
+    float: right;
 }
 
 .header__list-link {
@@ -81,7 +96,7 @@ header {
 
 
 .slider-wrapper {
-    margin-top: 32px;
+    /* margin-top: 32px; */
     background-image: linear-gradient(rgba(0, 0, 0, .52), rgba(0, 0, 0, .52)), url(../img/fon.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -148,8 +163,9 @@ header {
 
 .collection {
     margin: 0 auto;
-    height: 678px;
+    /* height: 0 auto; */
     background-color: #e9f0fd;
+    padding-bottom: 100px;
 }
 
 .collection__list {
@@ -197,6 +213,7 @@ header {
     background-color: #323232;
     position: absolute;
     bottom: 0px;
+    align-items: center;
 }
 
 .product-title {
