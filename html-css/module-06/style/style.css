@@ -93,10 +93,10 @@ header {
 .services__title{
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 28px;
     color: #333333;
     text-align: center;
-    margin-bottom: 22px;
+    margin-bottom: 55px;
 }
 
 .services__subtitle {
@@ -106,6 +106,7 @@ header {
     line-height: 30px;
     color: #333333;
     text-align: center;
+    margin-bottom: 46px;
 }
 
 .services__subtitle:after {
@@ -116,7 +117,7 @@ header {
     background-color: #f38181;
     margin: 0 auto;
     margin-top: 42px;
-    margin-bottom: 46px;
+    /* margin-bottom: 46px; */
 }
 
 .services__list {
@@ -183,7 +184,7 @@ header {
 .team__title {
     font-family: "Kaushan Script", cursive;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 36px;
     color: #333333;
     text-align: center;
     margin-bottom: 22px;
@@ -196,6 +197,7 @@ header {
     line-height: 30px;
     color: #333333;
     text-align: center;
+    margin-bottom: 41px;
 }
 
 .team__subtitle:after {
@@ -206,7 +208,7 @@ header {
     background-color: #f38181;
     margin: 0 auto;
     margin-top: 42px;
-    margin-bottom: 41px;
+    
 }
 
 .team__description {
