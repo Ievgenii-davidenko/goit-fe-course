@@ -35,7 +35,12 @@
          url('../fonts/pt-serif-v11-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/pt-serif-v11-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
+@font-face {
+    font-family: "Wisdom-script-font";
+    src: url(../fonts/Wisdom-Script.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -74,8 +79,13 @@ header {
 }
 
 .logotype {
-    width: 79px;
-    height: 28px;
+   
+    text-decoration: none;
+    font-family: "Wisdom-script-font";
+    font-weight: 700;
+    color: #fed136;
+    font-size: 30px;
+    line-height: 41px;
 }
 
 .navigation__list {
@@ -304,3 +314,6 @@ header {
     margin-bottom: 115px;
     cursor: pointer;
 }
+.form__btn:hover {
+    background-color: #ff0000;
+} 
