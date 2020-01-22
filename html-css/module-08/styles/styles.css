@@ -66,6 +66,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #1a1915;
+    min-height:auto; 
 }
 
 .container {
@@ -89,6 +90,7 @@ img {
     width: 150px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .navigation__list-item {
@@ -100,14 +102,15 @@ img {
     padding-top: 10px;
 }
 
-.navigation__list-item:last-child {
-    width: 94px;
-    height: 40px;
-    border: solid 2px #ffffff;
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-left: 17px;
-}
+.navigation__list-item:hover,
+    .navigation__list-item:focus{
+        width: 94px;
+        height: 40px;
+        border: solid 2px #ffffff;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-left: 17px;
+    }
 
 .navigation__list-link {
     color: #ffffff;
@@ -116,6 +119,10 @@ img {
 .logotype {
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 40px;
+    font-weight: 700;
 }
 
 .header__title {
@@ -264,7 +271,14 @@ img {
         padding-bottom: 234px;
         display: flex;
     }
-
+    .navigation__list-item:hover {
+        width: 94px;
+        height: 40px;
+        border: solid 2px #ffffff;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-left: 17px;
+    }
     .navigation__wrapper {
         display: flex;
         flex-direction: row-reverse;
@@ -273,8 +287,15 @@ img {
     }
 
     .logotype {
-        justify-content: left;
-        /* align-items: center; */
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        font-family: "Montserrat" , sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+       cursor: pointer;
     }
 .navigation__list-item {
     justify-content: right;
@@ -328,11 +349,11 @@ img {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
     .container {
         width: 940px;
     }
-
+    
     .header__btn {
         width: 225px;
     }
