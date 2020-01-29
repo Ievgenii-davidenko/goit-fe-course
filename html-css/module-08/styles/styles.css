@@ -66,50 +66,58 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #1a1915;
-    min-height:auto; 
-}
-
-.container {
-    margin: 0 auto;
-    width: 320px;
-    padding-top: 20px;
-    padding-bottom: 138px;
-}
-
-.navigation__wrapper {
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-.navigation {
-    margin-bottom: 115px;
-}
-
-.navigation__list {
-    margin: 0 auto;
-    width: 150px;
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 150px;
     
 }
 
+.container {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+    text-align: center;
+   }
+
+.navigation__wrapper {
+    height: 180px;
+    justify-content: space-between;
+    flex-direction: row-reverse ;
+    align-items: center;
+}
+.navigation {
+    margin-bottom: 115px;
+    margin:0 auto;
+    justify-content: center;
+}
+
+.navigation__list {
+    justify-content: center;
+    width: 240px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  
+    }
+
 .navigation__list-item {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2;
+    cursor: pointer;
+    text-decoration: none;
     color: #ffffff;
-    padding-top: 10px;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 8px 16px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    align-items: center;
 }
 
 .navigation__list-item:hover,
     .navigation__list-item:focus{
-        width: 94px;
-        height: 40px;
-        border: solid 2px #ffffff;
-        border-radius: 20px;
-        padding-top: 10px;
-        padding-left: 17px;
+                color: #ffffff;
+                
     }
 
 .navigation__list-link {
@@ -117,15 +125,20 @@ img {
 }
 
 .logotype {
-    display: flex;
-    justify-content: center;
+    display: block;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 40px;
     font-weight: 700;
-}
+    font-family: "Montserrat" , sans-serif;
+    text-align: center;
+    margin: 0 auto;
+   }
 
 .header__title {
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
     font-family: "Montserrat",sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -268,8 +281,10 @@ img {
 @media (min-width: 768px) {
     .container {
         width: 670px;
-        padding-bottom: 234px;
+        /* padding-bottom: 234px; */
         display: flex;
+        /* height: auto; */
+        
     }
     .navigation__list-item:hover {
         width: 94px;
@@ -281,14 +296,14 @@ img {
     }
     .navigation__wrapper {
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        margin-bottom: 150px;
+      
     }
-
+    .navigation__list {
+       justify-content: flex-end;
+    }
+    
     .logotype {
-        text-align: center;
-        display: block;
+        display: flex;
         text-decoration: none;
         font-family: "Montserrat" , sans-serif;
         font-size: 20px;
@@ -296,10 +311,9 @@ img {
         text-transform: uppercase;
         color: #ffffff;
        cursor: pointer;
+       justify-content: flex-start;
     }
-.navigation__list-item {
-    justify-content: right;
-}
+
     .navigation {
         margin-bottom: 0px;
     }
@@ -333,7 +347,7 @@ img {
     }
 
     .section__list-item {
-        width: 236px;
+        width: 50%;
     }
 
     .section__list-item:nth-child(-n+2) {
@@ -344,18 +358,26 @@ img {
         margin-bottom: 40px;
     }
 
-    .section__img-subtitle {
-        width: 218px;
-    }
-}
+    
 
 @media (min-width: 960px) {
     .container {
         width: 940px;
+        display: flex;
+      
     }
-    
+    .navigation__wrapper {
+        width: 1200px;
+    }
+    .navigation__list {
+        justify-content: flex-end;
+    }
+    .logotype {
+        justify-content: flex-start;
+    }
     .header__btn {
         width: 225px;
+       
     }
 
     .main__container {
@@ -363,7 +385,7 @@ img {
     }
 
     .section__list {
-        width: 944px;
+        width: 940px;
     }
 
     .section__list-item:nth-child(-n+2),
@@ -373,5 +395,6 @@ img {
 
     .section__list-item {
         flex-wrap: nowrap;
+        width: 25%;
     }          
 }
