@@ -74,7 +74,6 @@ img {
     padding: 20px;
     display: block;
     margin: 0 auto;
-    /* flex-wrap: wrap; */
     text-align: center;
     padding-bottom: 200px;
  
@@ -94,7 +93,6 @@ img {
 
 .navigation__list {
     justify-content: center;
-    /* width: 240px; */
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -110,17 +108,35 @@ img {
     font-size: 14px;
     line-height: 20px;
     font-weight: 700;
-    padding: 8px 16px;
+    padding:10px;
     border: 2px solid transparent;
-    border-radius: 40px;
+    border-radius: 20px;
     align-items: center;
+    display: block;
 }
+/* .navigation__list-link { */
+    color: #ffffff;
+    display: block;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    }
 
-.navigation__list-item:hover
-    .navigation__list-item:focus{
+/* .navigation__list-item:hover */
+    {
         color: #ffffff;
                 
     }
+    .navigation__list-item:hover,
+    .navigation__list-item:focus {
+        width: 94px;
+        height: 40px;
+        border: solid 2px #ffffff;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-left: 17px;
+        }
+        
 
 .navigation__list-link {
     color: #ffffff;
@@ -281,30 +297,26 @@ img {
     color: #ff4e50;
     text-align: center;
 }
-
+.section__btn:hover {
+    border: 2px solid #ffa507;
+    border-radius: 20px;
+    background-color: teal;
+    display: block;
+    margin: 0 auto;
+    width: 284px;
+    height: 44px;
+}
 @media (min-width: 768px) {
     .container {
-        /* width: 670px; */
-        /* padding-bottom: 234px; */
-        display: flex;
-        /* height: auto; */
-        
+              display: flex;
+       
     }
-    .navigation__list-item:hover {
-        width: 94px;
-        height: 40px;
-        border: solid 2px #ffffff;
-        border-radius: 20px;
-        padding-top: 10px;
-        padding-left: 17px;
-    }
+    
     .navigation__wrapper {
         display: flex;
       
     }
-    .navigation__list {
-       justify-content: flex-end;
-    }
+    
     
     .logotype {
         display: flex;
@@ -321,7 +333,7 @@ img {
     .navigation {
         margin-bottom: 0px;
     }
-/*  */
+
     .header__title {
         margin: 0 auto;
         font-size: 52px;
@@ -373,9 +385,7 @@ img {
     .navigation__wrapper {
         width: 1200px;
     }
-    .navigation__list {
-        justify-content: flex-end;
-    }
+   
     .logotype {
         justify-content: flex-start;
     }
