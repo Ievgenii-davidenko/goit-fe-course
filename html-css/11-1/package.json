@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ievgenii-davidenko.github.io/goit-fe-course/",
+  "homepage": "https://ievgenii-davidenko.github.io/goit-fe-course/html-css/11-1/src/index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
+    "url": "git+https://github.com/Ievgenii-davidenko/goit-fe-course/html-css/11-1"
   },
   "author": "Evgenii Davidenko module-11",
   "license": "isc",
   "bugs": {
-    "url": "https://github.com/luxplanjay/gulp-starter-kit/issues"
+    "url": "https://github.com/Ievgenii-davidenko/goit-fe-course/html-css/11-1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
