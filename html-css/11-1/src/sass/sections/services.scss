@@ -1,5 +1,9 @@
 .services {
     margin: 0 auto;
+&__section {
+    text-align: center;
+    margin: 0 auto;
+}
 
     &__title {
         font-family: $third-font;
@@ -44,30 +48,31 @@
             background-position: left;
             background-position-x: 1.25rem;
                 
-            &:first-child {
-                background-image: url(../images/icons/service1.png);
+            &_Photography_title {
+                background-image: url(../img/icons/service1.png);
+              
             }
-
-            &:nth-child(2) {
-                background-image: url(../images/icons/service2.png);
+            
+            &:web-design_title {
+                background-image: url(../img/icons/service2.png);
             }
-
-            &:nth-child(3) {
-                background-image: url(../images/icons/service3.png);
+            
+            &-creativity_title{
+                background-image: url(../img/icons/service3.png);
             }
-
-            &:nth-child(4) {
-                background-image: url(../images/icons/service4.png);
+            
+          &_seo_title {
+                background-image: url(../img/icons/service4.png);
             }
-
-            &:nth-child(5) {
-                background-image: url(../images/icons/service5.png);
+            
+            &_css-html_title {
+                background-image: url(../img/icons/service5.png);
             }
-
-            &:last-child {
-                background-image: url(../images/icons/service6.png);
+            
+            &_digital_title {
+                background-image: url(../img/icons/service6.png);
             }
-
+            
             &_title {
                 font-family: $main-font;
                 font-size: 0.875rem;
