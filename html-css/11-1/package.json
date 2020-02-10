@@ -9,13 +9,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ievgenii-davidenko.github.io/goit-fe-course/html-css/11-1/src/index.html",
+  "homepage": "https://ievgenii-davidenko.github.io/goit-fe-course/html-css/11-1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ievgenii-davidenko/goit-fe-course/html-css/11-1"
   },
-  "author": "Evgenii Davidenko module-11",
-  "license": "isc",
+  "author": "Evgenii Davidenko 11-1",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ievgenii-davidenko/goit-fe-course/html-css/11-1"
   },
@@ -48,5 +48,8 @@
     "gulp-uglify": "^3.0.2",
     "require-dir": "^1.2.0",
     "usedcss": "^1.0.7"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
   }
 }
