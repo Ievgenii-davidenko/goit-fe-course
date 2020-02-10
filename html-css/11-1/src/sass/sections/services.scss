@@ -1,8 +1,10 @@
 .services {
     margin: 0 auto;
-&__section {
+    
+    &_section {
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
+    display: block;
 }
 
     &__title {
@@ -12,6 +14,7 @@
         color: #333333;
         text-align: center;
         margin-bottom: 1.375rem;
+        display: block;
     }
 
     &__subtitle {
@@ -48,28 +51,28 @@
             background-position: left;
             background-position-x: 1.25rem;
                 
-            &_Photography_title {
-                background-image: url(../img/icons/service1.png);
+            .Photography_title {
+                background-image: url(../icons/service1.png);
               
             }
             
-            &:web-design_title {
+            .web-design_title {
                 background-image: url(../img/icons/service2.png);
             }
             
-            &-creativity_title{
+            .creativity_title{
                 background-image: url(../img/icons/service3.png);
             }
             
-          &_seo_title {
+            .seo_title {
                 background-image: url(../img/icons/service4.png);
             }
             
-            &_css-html_title {
+            .css-html_title {
                 background-image: url(../img/icons/service5.png);
             }
             
-            &_digital_title {
+            .digital_title {
                 background-image: url(../img/icons/service6.png);
             }
             
