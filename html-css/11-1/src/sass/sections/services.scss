@@ -51,30 +51,7 @@
             background-position: left;
             background-position-x: 1.25rem;
                 
-            .Photography_title {
-                background-image: url(../icons/service1.png);
-              
-            }
             
-            .web-design_title {
-                background-image: url(../img/icons/service2.png);
-            }
-            
-            .creativity_title{
-                background-image: url(../img/icons/service3.png);
-            }
-            
-            .seo_title {
-                background-image: url(../img/icons/service4.png);
-            }
-            
-            .css-html_title {
-                background-image: url(../img/icons/service5.png);
-            }
-            
-            .digital_title {
-                background-image: url(../img/icons/service6.png);
-            }
             
             &_title {
                 font-family: $main-font;
@@ -94,4 +71,28 @@
             }
         }
     }
+}
+.Photography_title {
+    background-image: url(../images/icons/service1.png);
+  
+}
+
+.web-design_title {
+    background-image: url(../images/icons/service2.png);
+}
+
+.creativity_title{
+    background-image: url(../images/icons/service3.png);
+}
+
+.seo_title {
+    background-image: url(../images/icons/service4.png);
+}
+
+.css-html_title {
+    background-image: url(../images/icons/service5.png);
+}
+
+.digital_title {
+    background-image: url(../images/icons/service6.png);
 }

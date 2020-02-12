@@ -36,8 +36,8 @@ const watcher = done => {
 exports.start = series(
   tasks.clean,
   tasks.images,
-  parallel(tasks.css, tasks.fonts, tasks.scripts, tasks.html),
-  tasks.inject,
+  parallel(tasks.css, tasks.fonts, tasks.sass, tasks.html),
+  tasks.js,
   watcher,
   serve,
 );
@@ -45,6 +45,6 @@ exports.start = series(
 exports.build = series(
   tasks.clean,
   tasks.images,
-  parallel(tasks.css, tasks.fonts, tasks.scripts, tasks.html),
-  tasks.inject,
+  parallel(tasks.css, tasks.fonts, tasks.sass, tasks.html),
+  tasks.js,
 );
