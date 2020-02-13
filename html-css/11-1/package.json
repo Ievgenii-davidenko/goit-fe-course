@@ -1,10 +1,10 @@
 {
   "name": "11-1",
   "version": "1.2.0",
-  "description": "my gulp project",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=1234 gulp start  ",
+    "start": "cross-env PORT=1234 gulp start --development ",
     "build": "gulp build --production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -12,12 +12,12 @@
   "homepage": "https://ievgenii-davidenko.github.io/goit-fe-course/html-css/11-1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ievgenii-davidenko/goit-fe-course/html-css/11-1"
+    "url": "git+https://github.com/Ievgenii-davidenko/goit-fe-course/blob/master/html-css/11-1"
   },
-  "author": "Evgenii Davidenko 11-1",
+  "author": "Evgenii Davidenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ievgenii-davidenko/goit-fe-course/html-css/11-1"
+    "url": "https://github.com/Ievgenii-davidenko/goit-fe-course/blob/master/html-css/11-1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -48,8 +48,5 @@
     "gulp-uglify": "^3.0.2",
     "require-dir": "^1.2.0",
     "usedcss": "^1.0.7"
-  },
-  "dependencies": {
-    "node-sass": "^4.13.1"
   }
 }
